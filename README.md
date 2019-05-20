@@ -15,3 +15,4 @@ Improve code using static analysis, formatting, status checks and hooks
 ### Lab 4
 
 Wrap the Task App into a mobile web view for mobile testing purposes
+.
