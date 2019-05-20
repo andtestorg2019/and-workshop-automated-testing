@@ -1,6 +1,7 @@
 language: node_js
 
 install:
+  - cd lab-2-improve-code
   - npm install
 
 script:
