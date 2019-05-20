@@ -10,11 +10,17 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
+    "husky": "^2.3.0",
     "jest": "^24.0.0"
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest ."
+    "test": "jest .",
+    "lint": "eslint ."
   },
-  "dependencies": {}
+  "husky": {
+      "hooks": {
+        "pre-commit": "npm run lint"
+      }
+    }
 }
